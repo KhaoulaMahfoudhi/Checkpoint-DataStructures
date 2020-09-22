@@ -1,0 +1,22 @@
+ALGORITHME Sm_arrays
+
+VAR
+
+tab1 : ARRAY_OF INTEGER [];
+tab2 : ARRAY_OF INTEGER [];
+i,j,n : INTEGER;
+Sum :INTEGER := 0;
+
+BEGIN
+WRITE ("Enter the number of values:");
+READ(n);
+FOR i FROM 0 TO tab1.length-1 DO
+FOR j FROM 0 TO Tab2.length-1 DO
+
+IF (tab1[i] == tab2[j]) THEN
+Sum := tab1[i]+teb2[j];
+
+END_IF
+END_FOR
+
+END

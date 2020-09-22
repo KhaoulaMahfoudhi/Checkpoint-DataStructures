@@ -1,0 +1,22 @@
+ALGORITHM Sm_hashs
+VAR
+   // declaring hash table
+   htab1 : HASH_TABLE<INTEGER,INTEGER>;
+   htab2 : HASH_TABLE<INTEGER,INTEGER>;
+
+   i,j,n : INTEGER;
+   Sum :INTEGER := 0;
+
+   BEGIN
+WRITE ("Enter the number of values:");
+READ(n);
+FOR i FROM 0 TO htab1.length-1 DO
+FOR j FROM 0 TO htab2.length-1 DO
+
+IF (htab1[i] <> htab2[j])THEN
+Sum := tab1[i]+teb2[j];
+
+END_IF
+END_FOR
+
+END
